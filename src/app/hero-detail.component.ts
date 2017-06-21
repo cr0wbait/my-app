@@ -2,7 +2,6 @@ import { Component, Input } from '@angular/core';
 import { Hero } from './hero';
 
 @Component({
-  hero: Hero;
   selector: 'hero-detail',
   template: `
   <div *ngIf='hero'>
